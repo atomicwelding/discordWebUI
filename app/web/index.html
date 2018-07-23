@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discord WebUI</title>
+        <meta charset='utf8'>
+        <link rel='stylesheet' type='text/css' href='./css/main.css'>
+    </head>
+    <body>
+        <h1 id='windowTitleUI'>Loading...</h1>
+
+        <div id ='connectedUsersUI'>
+        </div>
+
+        <form id='propertiesUI'>
+            <input type='checkbox' value='sound' onclick='setPlaySound()' checked>
+            <label>Play sound</label>
+        </form>
+
+        <div id='shoutBoxUI'>
+        </div>
+
+        <form id='typeBoxUI'>
+                <input type='text' action='' placeholder='Type your message here...'>
+        </form>
+
+        <p id ='watermark'>developed by weld</p>
+    </body>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js'></script>
+    <script src='./js/UIHandler.js'></script>
+    <script src='./js/client.js'></script>
+    <audio id='alertSound' src='./rsc/alert.mp3'></audio>
+</html>

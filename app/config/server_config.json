@@ -1,0 +1,5 @@
+{
+    "port": 8080,
+    "main_file": "index.html",
+    "web_root_dir": "./app/web/"
+}
