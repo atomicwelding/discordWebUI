@@ -10,7 +10,7 @@ It embeds a very simple, written from scratch, http server ; wsockets are handle
 
 ### Improvements
 
-The project follows the common MVC pattern. It lacks certain features (no session, plain db, history, ...) on which I'm currently working on.
+The project follows the common MVC pattern. It lacks certain features (no session, plain db, logs, ...) on which I'm currently working on.
 
 ## Screenshots
 
@@ -46,4 +46,5 @@ It works ! Access the UI from your web browser.
 ## About
 
 Developed by weld
+
 MIT license
